@@ -16,3 +16,11 @@ $ go get github.com/josem/redfollow
 ```
 $ redfollow http://github.com
 ```
+
+Output:
+
+```
+301 - http://github.com
+		↓
+200 - https://github.com/
+```
